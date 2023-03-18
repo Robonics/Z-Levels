@@ -1,0 +1,5 @@
+baseTexture	textures/dev.png
+animationNames	default
+animationTimes	0
+animationBounds	0	0	31	31
+langName	materials.dev

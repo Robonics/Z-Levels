@@ -1,0 +1,5 @@
+baseTexture	textures/no_mat.png
+animationNames	default
+animationTimes	0
+animationBounds	0	0	63	63
+langName	materials.missing_texture
