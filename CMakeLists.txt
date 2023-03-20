@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(gunslinger CXX)
+project(zlevels CXX)
 
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -22,7 +22,7 @@ FetchContent_MakeAvailable(SFML)
 
 include_directories("src/include")
 file(GLOB SOURCES "src/*.cpp")
-add_executable(gunslinger ${SOURCES})
+add_executable(zlevels ${SOURCES})
 
-target_link_libraries(gunslinger PRIVATE sfml-graphics)
-target_compile_definitions(gunslinger PRIVATE FONT_PATH="${CMAKE_SOURCE_DIR}/data")
+target_link_libraries(zlevels PRIVATE sfml-graphics)
+target_compile_definitions(zlevels PRIVATE FONT_PATH="${CMAKE_SOURCE_DIR}/data")
